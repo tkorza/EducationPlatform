@@ -1,0 +1,46 @@
+.header {
+    background-color: #F6F5F4;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1.18px solid #E0E0E0;
+}
+
+.header .wrapper {
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper p {
+    font: 600 16px Montserrat;
+    line-height: 16.39px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    padding-right: 28px;
+    border-right: 1.18px solid #E0E0E0;
+}
+
+.wrapper button {
+    font: 700 16px Montserrat;
+    line-height: 16.55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    border: none;
+}
+
+.wrapper button a{
+    color: #000;
+    text-decoration: none;
+    font: 700 16px Montserrat;
+    background-color: #F6F5F4;
+    border: none;
+}
+
+

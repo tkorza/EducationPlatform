@@ -1,0 +1,59 @@
+.Progress {
+    display: flex;
+    padding-top: 95px;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.Progress .rightPart {
+    width: 420px;
+    padding-top: 54px;
+}
+
+.Progress .rightPart h2 {
+    font: 400 48px Dela Gothic One;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.Progress .rightPart p {
+    font: 600 18px Montserrat;
+    line-height: 25.2px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    width: 396px;
+    padding-top: 30px;
+}
+
+.Progress .rightPart button {
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2B788B;
+    background-color: #C3DCE3;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 22px;
+    margin-top: 34px;
+
+}
+
+.Progress .wrapperItem {
+    background-image: url('./img/item.png');
+    width: 680px;
+    height: 409px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}

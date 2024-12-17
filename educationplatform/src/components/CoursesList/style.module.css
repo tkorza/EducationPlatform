@@ -1,0 +1,170 @@
+.wrapper {
+    background-color: #F6F5F4;
+}
+
+.coursesList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1180px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.coursesList .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    width: 1180px;
+    height: 72px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 40px;
+
+}
+
+.coursesList .logo .item {
+    background-image: url('./img/item1.png');
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.coursesList .logo h1 {
+    font: 400 26px Dela Gothic One;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.wrapperCourse {
+    width: 926px;
+    height: 216px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 14px;
+    gap: 40px;
+}
+
+.wrapperCourse .rightPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 516px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.wrapperCourse .jsItem {
+    background-image: url('./img/itemjs.png');
+    width: 337px;
+    height: 216px;
+    box-sizing: border-box;
+    border-radius: 14px 0 0 14px;
+
+}
+
+.wrapperCourse .tsItem {
+    background-image: url('./img/itemts.png');
+    width: 337px;
+    height: 216px;
+    box-sizing: border-box;
+    border-radius: 14px 0 0 14px;
+
+}
+
+.wrapperCourse .pyItem {
+    background-image: url('./img/itempy.png');
+    width: 337px;
+    height: 216px;
+    box-sizing: border-box;
+    border-radius: 14px 0 0 14px;
+}
+
+.wrapperCourse h2 {
+    font: 400 32px Dela Gothic One;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.wrapperCourse p {
+    font: 500 16px Montserrat;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 12px;
+    border-top: 1.22px solid #E0E0E0;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.navigation .borderNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    border: 3px solid #5996A5;
+}
+
+.navigation .borderNav p {
+
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5996A5;
+}
+
+.navigation span {
+    font: 600 18px Montserrat;
+    line-height: 25.2px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+}
+
+.navigation .wrapperPoint {
+    display: flex;
+    align-items: flex-end;
+    width: 15px;
+    height: 44px;
+}
+
+.navigation .leftArrow {
+    background-image: url('./img/leftArrow.svg');
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.navigation .rightArrow {
+    background-image: url('./img/rightArrow.svg');
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}

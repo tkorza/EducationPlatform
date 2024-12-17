@@ -1,0 +1,72 @@
+.wrapper {
+    background-color: #F6F5F4;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 83px;
+    padding-bottom: 88px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.sign .leftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+
+}
+
+.sign .leftPart h2 {
+    font: 400 56px Dela Gothic One;
+    line-height: 67.2px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.sign .leftPart input {
+    width: 519px;
+    height: 60px;
+    padding-left: 20px;
+    font: 400 20px Open Sans;
+    line-height: 31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB5BD;
+    border: 1px solid #CED4DA
+}
+
+.sign .leftPart button {
+    width: 110px;
+    padding: 14px 22px;
+    background-color: #2B788B;
+    border: none;
+    border-radius: 100px;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.sign .leftPart button a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.sign .item {
+    background-image: url('./img/item.png');
+    width: 481px;
+    height: 320px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin-top: 93px;
+
+}

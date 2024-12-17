@@ -1,0 +1,103 @@
+.Learning {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 77px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 77px;
+}
+
+.Learning .item {
+    background-image: url('./img/item1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 580px;
+    height: 445px;
+}
+
+.Learning h2 {
+    font: 400 48px Dela Gothic One;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    padding-top: 40px;
+}
+
+.Learning p {
+    font: 600 18px Montserrat;
+    line-height: 25.2px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 30px;
+}
+
+.Learning .rightPart {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.Learning .rightPart .wrapper {
+    display: flex;
+    gap: 21px;
+    padding-top: 63px;
+}
+
+.Learning .rightPart .btn1 {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 129px;
+    height: 112px;
+    background-color: #F2D4DC;
+    border: none;
+    border-radius: 14px;
+}
+
+.Learning .rightPart .btn1 .wrapItem {
+    background-image: url('./img/item2.png');
+    width: 131px;
+    height: 106px;
+    position: absolute;
+    bottom: 42px;
+    background-repeat: no-repeat;
+}
+
+.Learning .rightPart .btn1 p {
+    color: #945069;
+    padding-left: 34px;
+    padding-top: 70px;
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+.Learning .rightPart .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 172px;
+    height: 112px;
+    background-color: #C3DCE3;
+    border: none;
+    border-radius: 14px;
+}
+
+.Learning .rightPart .btn2 .wrapItem {
+    background-image: url('./img/item3.png');
+    width: 91px;
+    height: 106px;
+    position: absolute;
+    bottom: 42px;
+    background-repeat: no-repeat;
+}
+
+.Learning .rightPart .btn2 p {
+    color: #2B788B;
+    padding-bottom: 8px;
+}

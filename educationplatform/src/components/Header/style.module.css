@@ -1,0 +1,61 @@
+.header {
+    background-color: #F6F5F4;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    display: flex;
+    font: 600 16px Montserrat;
+    line-height: 16.39px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    border-right: 1.18px solid #E0E0E0;
+    padding-right: 28px;
+    align-items: center;
+}
+.header .login{
+    display: flex;
+    gap: 25px;
+}
+.header .btn_login {
+    font: 700 16.5px Montserrat;
+    line-height: 16.55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    border: none;
+    background-color: #F6F5F4;
+}
+.header .btn_login a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.header .btn_sign {
+    font:700 16.5px Montserrat;
+    line-height: 16.55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #2B788B;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    padding: 13px 21px;
+}
+.header .btn_sign a{
+    text-decoration: none;
+    color:#fff;
+}

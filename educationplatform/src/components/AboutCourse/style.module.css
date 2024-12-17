@@ -1,0 +1,120 @@
+.wrapper {
+    background-color: #F6F5F4;
+    padding-top: 101px;
+    padding-bottom: 101px;
+}
+
+.course {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 572px;
+    height: 374px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.leftPart .image {
+    background-image: url('./img/item.svg');
+    width: 239px;
+    height: 150px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+
+.leftPart .subWrapper {
+    display: flex;
+    width: 492px;
+    padding: 40px 40px 30px 40px;
+
+}
+
+.subWrapper .textPart {
+    width: 253px;
+}
+
+.textPart h2 {
+    font: 400 32px Dela Gothic One;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.textPart p {
+    font: 600 16px Montserrat;
+    line-height: 22.4px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 12px;
+}
+
+.leftPart button {
+    width: 143px;
+    height: 44px;
+    background-color: #C3DCE3;
+    color: #2B788B;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    border-radius: 100px;
+    padding-left: 22px;
+    margin-top: 30px;
+}
+
+
+.course .rightPart {
+    display: flex;
+    flex-direction: column;
+    width: 401px;
+    height: 374px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.course .rightPart h2 {
+    font: 400 32px Dela Gothic One;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+
+    padding-top: 40px;
+    padding-left: 73.5px;
+}
+
+.wrapperP {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 32px;
+}
+
+.course .wrapperP p {
+    font: 600 16px Montserrat;
+    line-height: 22.4px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    padding-left: 73.5px;
+}

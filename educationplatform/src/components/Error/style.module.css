@@ -1,0 +1,73 @@
+.wrapper {
+    background-color: #F6F5F4;
+    padding: 113px 0 112px 0;
+}
+
+.wrapper .Error {
+    width: 1180px;
+    height: 493px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Error p {
+    font: 500 20px Space Grotesk;
+    line-height: 28.42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 24px;
+}
+
+.Error .errorText {
+    font: 700 16px Space Grotesk;
+    line-height: 20.42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 100px;
+
+}
+
+.Error h2 {
+    font: 400 56px Dela Gothic One;
+    line-height: 67.2px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    padding-top: 24px;
+}
+
+.Error button {
+    width: 118px;
+    height: 44px;
+    background-color: #2B788B;
+    border-radius: 100px;
+    border: none;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.wrapper .imgWrapper {
+    width: 395px;
+    height: 445px;
+    background-image: url('./errorImage.svg');
+    background-size: cover;
+    /* Масштабирование изображения */
+    background-position: center;
+    /* Центрирование изображения */
+    background-repeat: no-repeat;
+    /* Отключение повторения изображения */
+    padding-top: 24px;
+}

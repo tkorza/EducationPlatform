@@ -1,0 +1,61 @@
+.wrapper{
+    background-color: #F6F5F4;
+}
+
+.Knowledge {
+    display: flex;
+    padding-top: 26px;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.Knowledge .leftPart {
+    padding-top: 107px;
+    width: 474px;
+}
+
+.Knowledge .leftPart h2 {
+    font: 400 48px Dela Gothic One;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.Knowledge .leftPart p {
+    font: 600 18px Montserrat;
+    line-height: 25.2px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    padding-top: 30px;
+    width: 396px;
+}
+
+.Knowledge .leftPart button {
+    margin-top: 34px;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2B788B;
+    background-color: #C3DCE3;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 22px;
+}
+
+.Knowledge .wrapperItem {
+    background-image: url('./img/item.png');
+    width: 425px;
+    height: 474px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
