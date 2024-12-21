@@ -42,13 +42,14 @@
     color: #000000;
 }
 
-.wrapperCourse {
+.wrapperCourse a {
     width: 926px;
     height: 216px;
     display: flex;
     background-color: #fff;
     border-radius: 14px;
     gap: 40px;
+    text-decoration: none;
 }
 
 .wrapperCourse .rightPart {
